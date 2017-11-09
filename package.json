@@ -1,0 +1,9 @@
+{
+  "name": "pull-event",
+  "version": "1.0.0",
+  "description": "pull-stream sources for FRP style user interaction",
+  "main": "index.js",
+  "repository": "https://github.com/DamonOehlman/pull-event.git",
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "MIT"
+}
