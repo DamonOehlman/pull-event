@@ -57,6 +57,10 @@ astw@^2.0.0:
   dependencies:
     acorn "^4.0.3"
 
+babylon@^6.15.0:
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -488,6 +492,13 @@ falafel@^2.1.0:
     foreach "^2.0.5"
     isarray "0.0.1"
     object-keys "^1.0.6"
+
+flow-remove-types@^1.1.2:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-1.2.3.tgz#6131aefc7da43364bb8b479758c9dec7735d1a18"
+  dependencies:
+    babylon "^6.15.0"
+    vlq "^0.2.1"
 
 foreach@^2.0.5:
   version "2.0.5"
@@ -1078,7 +1089,7 @@ through2@~0.4.1:
     readable-stream "~1.0.17"
     xtend "~2.1.1"
 
-"through@>=2.2.7 <3":
+"through@>=2.2.7 <3", through@^2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
 
@@ -1104,6 +1115,13 @@ umd@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/umd/-/umd-3.0.1.tgz#8ae556e11011f63c2596708a8837259f01b3d60e"
 
+unflowify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/unflowify/-/unflowify-1.0.1.tgz#a2ea0d25c0affcc46955e6473575f7c5a1f4a696"
+  dependencies:
+    flow-remove-types "^1.1.2"
+    through "^2.3.8"
+
 url@~0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/url/-/url-0.11.0.tgz#3838e97cfc60521eb73c525a8e55bfdd9e2e28f1"
@@ -1124,6 +1142,10 @@ util@0.10.3, util@~0.10.1:
 uuid@^3.0.1:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
+
+vlq@^0.2.1:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.3.tgz#8f3e4328cf63b1540c0d67e1b2778386f8975b26"
 
 vm-browserify@~0.0.1:
   version "0.0.4"

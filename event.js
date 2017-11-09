@@ -23,7 +23,7 @@ export type MouseState = 'UP' | 'DOWN' | 'MOVE';
 const event /*: PullSource<EventSourceConfig,?Event> */ = ({ target, event }) => {
   const buffer /*: Array<Event> */ = [];
 
-  function bufferEvent(evt /*: Event */): void {
+  function bufferEvent(evt /*: Event */) /*: void */ {
     buffer.unshift(evt);
   }
 

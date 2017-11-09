@@ -8,7 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "pull-many": "^1.0.8",
-    "pull-stream": "^3.6.1"
+    "pull-stream": "^3.6.1",
+    "unflowify": "^1.0.1"
   },
   "devDependencies": {
     "bde": "^1.2.0"

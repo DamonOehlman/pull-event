@@ -1,0 +1,11 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 10vw;
+}
+
+canvas {
+  display: flex;
+  flex-grow: 1;
+}
