@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/DamonOehlman/pull-event.git",
   "author": "Damon Oehlman <damon.oehlman@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pull-many": "^1.0.8",
+    "pull-stream": "^3.6.1"
+  },
+  "devDependencies": {
+    "bde": "^1.2.0"
+  },
+  "scripts": {
+    "drawing-demo": "bde examples/drawing/"
+  }
 }
