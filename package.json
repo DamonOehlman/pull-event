@@ -12,9 +12,11 @@
     "unflowify": "^1.0.1"
   },
   "devDependencies": {
-    "bde": "^1.2.0"
+    "bde": "^1.2.0",
+    "embelish": "^1.0.3"
   },
   "scripts": {
-    "drawing-demo": "bde examples/drawing/"
+    "drawing-demo": "bde examples/drawing/",
+    "embelish": "embelish README.md"
   }
 }
